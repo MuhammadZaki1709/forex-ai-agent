@@ -386,9 +386,9 @@ if __name__ == "__main__":
     print("📊 BACKTEST 78.6% + CONFIDENCE ≥ 85%")
     print("=" * 60)
     
-    LOGIN = 279668304
-    PASSWORD = "$Ayunazaki123"
-    SERVER = "Exness-MT5Trial8"
+    LOGIN = 
+    PASSWORD = ""
+    SERVER = ""
     
     if not mt5.initialize(login=LOGIN, password=PASSWORD, server=SERVER):
         print("❌ Gagal konek!")
